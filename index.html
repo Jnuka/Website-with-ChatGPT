@@ -64,7 +64,31 @@
         <a class="case__link" href="#">Learn more</a>
       </div>
     </section>
+
   </div>
+
+  <div class="overlay hidden">
+    <div class="modal">
+      <form class="modal__form" action="">
+        <label class="modal__label" for="name">
+          Name
+        </label>
+        <input class="modal__input" type="text" name="name" placeholder="Name" required>
+        <label class="modal__label" for="email">
+          Email*
+        </label>
+        <input class="modal__input" type="text" name="email" placeholder="Email" required>
+        <label class="modal__label" for="message">
+          Message*
+        </label>
+        <textarea class="modal__textarea" name="message" placeholder="Message"></textarea>
+
+        <button class="modal__btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
